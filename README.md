@@ -1,7 +1,7 @@
 # graduation_express
 
 
-techniques
+### techniques
 
 - JAVA
 - SpringBoot
