@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/deliverydb?serverTimezone=CTT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    schema: classpath:db/schema-h2.sql
+  web:
+#    loginurl: http://localhost:${server.port}/swagger-ui/index.html
+    loginurl: http://localhost:${server.port}/swagger-ui.html
+    googleexcute: explorer
+    isopenurl: true
+
+server:
+  port: 8060
+
+
+# 配置日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false
+

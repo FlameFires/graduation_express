@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/admin/home",
+    "pages/admin/me",
+    "pages/admin/msg_list",
+    "pages/admin/notice_detail",
+    "pages/admin/notice_go",
+    "pages/admin/notice_list",
+    "pages/admin/adm_send",
+    "pages/admin/adm_take",
+    "pages/admin/account",
+    "pages/admin/selfInfo",
+    "pages/courier/me",
+    "pages/courier/cou_send",
+    "pages/courier/cou_take",
+    "pages/courier/account",
+    "pages/courier/selfInfo",
+    "pages/courier/send_detail",
+    "pages/courier/take_detail",
+    "pages/customer/notice_list",
+    "pages/customer/cus_take",
+    "pages/customer/cus_send",
+    "pages/customer/me",
+    "pages/customer/community",
+    "pages/customer/account",
+    "pages/customer/selfInfo",
+    "pages/customer/send_detail",
+    "pages/customer/take_detail",
+    "pages/customer/send_go",
+    "pages/customer/take_go",
+    "pages/customer/post_detail",
+    "pages/customer/post_go"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "courier-head": "/components/courier-head",
+    "admin-head": "/components/admin-head",
+    "picker-display": "/components/picker-display"
+  },
+  "sitemapLocation": "sitemap.json"
+}
